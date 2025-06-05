@@ -1,114 +1,133 @@
-📚 C++ Library Management System
-A simple command-line Library Management System built in C++, offering distinct functionalities for students and librarians. It uses object-oriented programming and text file storage for persistent data management.
+# 📚 C++ Library Management System
 
-✨ Features
-👨‍🎓 For Students
-View All Books
-Browse the full library collection, categorized for easy viewing.
+A simple **command-line Library Management System** built in **C++**, offering distinct functionalities for **students** and **librarians**. It uses **object-oriented programming** and **text file storage** for persistent data management.
 
-Search for a Book
-Search by book name or ID.
+---
 
-🧑‍🏫 For Librarians
-🔐 Secure Login
-Password-protected access to librarian functionalities.
+## ✨ Features
 
-Default Password: ali
+### 👨‍🎓 For Students
 
-📚 Manage Books
+* **View All Books**
+  Browse the full library collection, categorized for easy viewing.
+* **Search for a Book**
+  Search by book name or ID.
 
-View all books
+### 🧑‍🏫 For Librarians
 
-Search for a book by name or ID
+* **🔐 Secure Login**
+  Password-protected access to librarian functionalities.
 
-Modify book details (name, author, category)
+  > Default Password: `ali`
+* **📚 Manage Books**
 
-Add new books with automatic ID generation
+  * View all books
+  * Search for a book by name or ID
+  * Modify book details (name, author, category)
+  * Add new books with automatic ID generation
+  * Delete books (only if not issued)
+* **📖 Issue Management**
 
-Delete books (only if not issued)
+  * Issue books to students
+  * View currently issued books with student details
+  * Return books to mark them available again
 
-📖 Issue Management
+---
 
-Issue books to students
+## 💾 Data Persistence
 
-View currently issued books with student details
-
-Return books to mark them available again
-
-💾 Data Persistence
 All data is stored in plain text files for durability between sessions:
 
-File Name	Purpose
-books.txt	Stores all books in the library
-issue.txt	Tracks which books are issued
-password.txt	Stores librarian password (default: ali)
+| File Name      | Purpose                                  |
+| -------------- | ---------------------------------------- |
+| `books.txt`    | Stores all books in the library          |
+| `issue.txt`    | Tracks which books are issued            |
+| `password.txt` | Stores librarian password (default: ali) |
 
-🛠️ How to Compile & Run
-✅ Prerequisites
-A working C++ compiler (e.g., g++)
+---
 
-🔧 Compile
+## 🛠️ How to Compile & Run
+
+### ✅ Prerequisites
+
+* A working **C++ compiler** (e.g., `g++`)
+
+### 🔧 Compile
+
 Open your terminal, navigate to the source directory, and compile:
 
-bash
-Copy
-Edit
+```bash
 g++ main.cpp -o library_system
-▶️ Run
-On Linux/macOS:
+```
 
-bash
-Copy
-Edit
+### ▶️ Run
+
+On **Linux/macOS**:
+
+```bash
 ./library_system
-On Windows:
+```
 
-cmd
-Copy
-Edit
+On **Windows**:
+
+```cmd
 .\library_system.exe
-📂 Project Structure
-bash
-Copy
-Edit
+```
+
+---
+
+## 📂 Project Structure
+
+```bash
 project/
 └── main.cpp          # Complete source code
-💡 Classes and Components
-Class / Component	Description
-Book	Represents a book (id, name, author, category) with file I/O methods
-IssuedBook	Represents an issued book linked to a student
-User (abstract)	Base class with menu() as a virtual function
-Student	Inherits from User; provides student functionalities
-Librarian	Inherits from User; handles librarian features and login
-Library	Manages books and issued books, handles file operations
-Utility Functions	clearScreen() for cross-platform console clearing, toLower() for case-insensitive search
+```
 
-🧑‍💻 Usage
-When you launch the program, you'll see the Main Menu:
+### 💡 Classes and Components
 
-text
-Copy
-Edit
+| Class / Component | Description                                                                                  |
+| ----------------- | -------------------------------------------------------------------------------------------- |
+| `Book`            | Represents a book (id, name, author, category) with file I/O methods                         |
+| `IssuedBook`      | Represents an issued book linked to a student                                                |
+| `User` (abstract) | Base class with `menu()` as a virtual function                                               |
+| `Student`         | Inherits from `User`; provides student functionalities                                       |
+| `Librarian`       | Inherits from `User`; handles librarian features and login                                   |
+| `Library`         | Manages books and issued books, handles file operations                                      |
+| Utility Functions | `clearScreen()` for cross-platform console clearing, `toLower()` for case-insensitive search |
+
+---
+
+## 🧑‍💻 Usage
+
+When you launch the program, you'll see the **Main Menu**:
+
+```text
 Library Management System
 
 1. Enter as Student
 2. Enter as Librarian
 3. Exit
-Students can browse and search books.
+```
 
-Librarians must log in to access full book and issue management features.
+* **Students** can browse and search books.
+* **Librarians** must log in to access full book and issue management features.
+* Simply follow on-screen prompts to navigate and perform actions.
 
-Simply follow on-screen prompts to navigate and perform actions.
+---
 
-🖥️ System Compatibility
-Uses system("cls") for Windows
+## 🖥️ System Compatibility
 
-Uses system("clear") for Linux/macOS
+* Uses `system("cls")` for **Windows**
+* Uses `system("clear")` for **Linux/macOS**
+* Compatible across platforms with minimal changes
 
-Compatible across platforms with minimal changes
+---
 
-👨‍💻 Developer
-Mian AbdurRahman Qayyum
+## 👨‍💻 Developer
 
-This project is built for learning and demonstration purposes.
-Not intended for production or commercial use.
+**Mian AbdurRahman Qayyum**
+
+> This project is built for learning and demonstration purposes.
+> Not intended for production or commercial use.
+
+---
