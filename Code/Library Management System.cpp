@@ -868,7 +868,7 @@ int main() {
             librarian.menu();
         }
         else if (choice == 3) {
-            cout << "Thank you for using the Library Management System. \n Made by: Mian AbdurRahman Qayyum \n";
+            cout << "Thank you for using the Library Management System. \n Made by: AbdurRahman\n";
             break;
         }
         else {
