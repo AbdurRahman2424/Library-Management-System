@@ -1,0 +1,47 @@
+1|To Kill a Mockingbird|Harper Lee|Novels
+2|1984|George Orwell|Novels
+3|Pride and Prejudice|Jane Austen|Novels
+101|Fundamentals of Physics|Halliday & Resnick|Physics
+102|Concepts of Physics|H.C. Verma|Physics
+103|Introduction to Electrodynamics|David J. Griffiths|Physics
+104|Conceptual Physics|Paul G. Hewit|Physics
+105|Classical mechanics|R. Douglas Gregory|Physics
+106|Modern Physics|Kenneth S. Krane|Physics
+107|The Feynman Lectures on Physics|Richard P. Feynman|Physics
+108|University Physics|Hugh D. Young|Physics
+109|Physics for Scientists and Engineers|Raymond A. Serway|Physics
+110|Quantum Physics|Stephen Gasiorowicz|Physics
+111|Statistical Physics|L.D. Landau|Physics
+112|Solid State Physics|Neil W. Ashcroft|Physics
+113|Optics|Eugene Hecht|Physics
+114|Thermodynamics|Enrico Fermi|Physics
+115|The Elegant Universe|Brian Greene|Physics
+201|Calculus|James Stewart|Calculus
+202|Calculus Made Easy|Silvanus P. Thompson|Calculus
+203|Advanced Calculus|Patrick M. Fitzpatrick|Calculus
+204|calc|Ar|Calculus
+4|Hear the Wind Sing|Haruki Murakami|Novels
+5|Kafka on the Shore|Haruki Murakam|Novels
+6|1Q84|Haruki Murakam|Novels
+7|After Dark|Haruki Murakam|Novels
+8|The Great Gatsby|F. Scott Fitzgerald|Novels
+9|Moby Dick|Herman Melville|Novels
+10|War and Peace|Leo Tolstoy|Novels
+11|The Catcher in the Rye|J.D. Salinger|Novels
+12|Crime and Punishment|Fyodor Dostoevsky|Novels
+13|Brave New World|Aldous Huxley|Novels
+14|The Brothers Karamazov|Fyodor Dostoevsky|Novels
+15|Wuthering Heights|Emily Brontë|Novels
+16|Jane Eyre|Charlotte Brontë|Novels
+17|The Hobbit|J.R.R. Tolkien|Novels
+205|Differential Equations|Paul Blanchard|Calculus
+206|Calculus: Early Transcendentals|Howard Anton|Calculus
+207|Multivariable Calculus|Ron Larson|Calculus
+208|Vector Calculus|Jerrold E. Marsden|Calculus
+209|Integral Calculus|Shanti Narayan|Calculus
+210|Calculus and Analytic Geometry|George B. Thomas|Calculus
+211|A Course of Pure Mathematics|G.H. Hardy|Calculus
+212|Calculus with Applications|Margaret L. Lial|Calculus
+213|Calculus for Dummies|Mark Ryan|Calculus
+214|The Calculus Lifesaver|Adrian Banner|Calculus
+
