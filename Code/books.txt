@@ -19,7 +19,6 @@
 201|Calculus|James Stewart|Calculus
 202|Calculus Made Easy|Silvanus P. Thompson|Calculus
 203|Advanced Calculus|Patrick M. Fitzpatrick|Calculus
-204|calc|Ar|Calculus
 4|Hear the Wind Sing|Haruki Murakami|Novels
 5|Kafka on the Shore|Haruki Murakam|Novels
 6|1Q84|Haruki Murakam|Novels
