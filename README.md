@@ -14,7 +14,7 @@ A simple **command-line Library Management System** built in **C++**, offering d
 ### 🧑‍🏫 For Librarians
 * **🔐 Secure Login**
   Password-protected access to librarian functionalities.
-  > Default Password: `ali`
+  > Default Password: `pass`
 * **📚 Manage Books**
   * View all books organized by category (Novels, Physics, Calculus)
   * Search for a book by name or ID
