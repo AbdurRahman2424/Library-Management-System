@@ -35,7 +35,7 @@ All data is stored in plain text files for durability between sessions:
 | -------------- | ---------------------------------------- |
 | `books.txt`    | Stores all books in the library         |
 | `issue.txt`    | Tracks which books are issued            |
-| `password.txt` | Stores librarian password (default: ali) |
+| `password.txt` | Stores librarian password (default: pass) |
 
 ### 📋 Book Categories & ID System
 - **Novels**: IDs start from 1
@@ -108,7 +108,7 @@ When you launch the program, you'll see the **Main Menu**:
 ```
 
 * **Students** can browse and search books without authentication
-* **Librarians** must log in (default password: `ali`) to access full management features
+* **Librarians** must log in (default password: `pass`) to access full management features
 * Simply follow on-screen prompts to navigate and perform actions
 
 ### 📖 Sample Workflow
